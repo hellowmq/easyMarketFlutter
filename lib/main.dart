@@ -13,6 +13,7 @@ import 'package:easy_market/utils/cache.dart';
 import 'package:easy_market/page/index.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   var sq = await SpUtil.getInstance();
   var token = sq.getString('token');
   var userName = sq.getString('userName');
