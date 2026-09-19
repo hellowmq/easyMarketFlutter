@@ -1,5 +1,17 @@
 # EasyMarketFlutter
 
+> **Fork notice:** This is a historical fork of [luoguoxiong/easyMarketFlutter](https://github.com/luoguoxiong/easyMarketFlutter). The Chinese project description, screenshots, QR code, personal profile, and contact details below are preserved from the upstream README and belong to the upstream project—not to this fork's owner.
+
+## Changes in this fork
+
+The only source-level change unique to this fork is a 2019 initialization fix: `WidgetsFlutterBinding.ensureInitialized()` runs before asynchronous preferences access in `main()`. The accompanying lockfile was also refreshed.
+
+This snapshot targets pre-null-safety Dart (`>=2.1.0 <3.0.0`), and its lockfile records Flutter `<2.0.0`. It is not maintained as a current shopping application, and the archived QR build and external services have not been revalidated.
+
+No repository-level license is provided. Public visibility does not grant permission to copy, modify, or redistribute the upstream code or bundled assets.
+
+## Upstream README
+
 > 1、EasyMarketFlutter是仿网易严选 设计的 App（商城类）。项目是基于 Flutter框架的混合开发（Android与IOS）
 >
 > 2、EasyMarketFlutter主要技术栈:provider(全局数据管理)、dio(数据请求)、shared_preferences（缓存）。
